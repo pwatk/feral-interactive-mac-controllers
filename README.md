@@ -90,6 +90,15 @@ I changed the ProductID to to make it work. Also change ButtonBack to make the s
 <string>9:11</string>
 ```
 
+I also changed the string for the **CGPDeviceType** key to **Standard** instead of **Xbox** to stop the left stick drifting in Sleaping Dogs and GRID Autosport.
+
+```
+<key>CGPDeviceType</key>
+<string>Standard</string>
+```
+
+This also appears to be compatible with the other games tested.
+
 ## Official Support
 
 For official support email support@feralinteractive.com
